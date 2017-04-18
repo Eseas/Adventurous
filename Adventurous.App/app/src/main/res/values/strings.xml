@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adventurous</string>
+    <string name="title_activity_points">Map</string>
+    <string name="title_activity_direction">Map</string>
+    <string name="game_activity_approve_button">Patvirtinti</string>
+    <string name="game_activity_hint_timer_text_view">Iki pagalbos liko\nxx:xx</string>
+</resources>

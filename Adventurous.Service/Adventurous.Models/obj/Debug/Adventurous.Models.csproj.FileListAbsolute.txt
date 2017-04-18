@@ -1,0 +1,5 @@
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\bin\Debug\Adventurous.Models.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\bin\Debug\Adventurous.Models.pdb
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\obj\Debug\Adventurous.Models.csprojResolveAssemblyReference.cache
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\obj\Debug\Adventurous.Models.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\obj\Debug\Adventurous.Models.pdb

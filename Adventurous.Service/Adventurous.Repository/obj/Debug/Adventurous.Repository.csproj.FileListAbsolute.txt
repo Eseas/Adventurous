@@ -1,0 +1,15 @@
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\Adventurous.Repository.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\Adventurous.Repository.pdb
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\obj\Debug\Adventurous.Repository.csprojResolveAssemblyReference.cache
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\obj\Debug\Adventurous.Repository.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\obj\Debug\Adventurous.Repository.pdb
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\Adventurous.Repository.dll.config
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\EntityFramework.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\EntityFramework.xml
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\Adventurous.Models.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\bin\Debug\Adventurous.Models.pdb
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\obj\Debug\Adventurous.Repository.Migrations.Initial.resources
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\obj\Debug\Adventurous.Repository.csproj.GenerateResource.Cache
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Repository\obj\Debug\Adventurous.Repository.Migrations.addedIsFreeproperty.resources

@@ -1,0 +1,15 @@
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Tests.dll.config
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Tests.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Tests.pdb
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Models.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Repository.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\EntityFramework.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Models.pdb
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\Adventurous.Repository.pdb
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\EntityFramework.xml
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\obj\Debug\Adventurous.Tests.csprojResolveAssemblyReference.cache
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\obj\Debug\Adventurous.Tests.dll
+D:\Adventurous.v3\Adventurous.Tests\Adventurous.Tests\obj\Debug\Adventurous.Tests.pdb

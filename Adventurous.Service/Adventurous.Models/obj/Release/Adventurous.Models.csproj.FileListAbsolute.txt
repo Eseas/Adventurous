@@ -1,0 +1,4 @@
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\bin\Release\Adventurous.Models.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\bin\Release\Adventurous.Models.pdb
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\obj\Release\Adventurous.Models.dll
+D:\Adventurous.v3\Adventurous.Service\Adventurous.Models\obj\Release\Adventurous.Models.pdb
