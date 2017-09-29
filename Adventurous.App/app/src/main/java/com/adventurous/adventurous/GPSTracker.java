@@ -2,15 +2,19 @@ package com.adventurous.adventurous;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 
-
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 
-public class GPSTracker implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
+public class GPSTracker implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private Context context;
     GoogleApiClient mGoogleApiClient;
@@ -20,7 +24,7 @@ public class GPSTracker implements GoogleApiClient.ConnectionCallbacks, GoogleAp
 
 
     public GPSTracker(LocationListener _context) {
-        context = (Context)_context;
+        context = (Context) _context;
 
         mGoogleApiClient = new GoogleApiClient.Builder(context)
                 .addApi(LocationServices.API)

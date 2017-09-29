@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adventurous</string>
+    <string name="game_activity_approve_button">Patvirtinti</string>
+    <string name="game_activity_next_hint_in">Kita užuomina už</string>
+    <string name="game_activity_wrong_code">Įvestas neteisingas kodas</string>
+    <string name="google_maps_key" translatable="false"></string>
+    <string name="points_activity_play">Žaisti</string>
+    <string name="points_activity_buy">Pirkti</string>
+    <string name="pay_activity_code">Kodas</string>
+    <string name="pay_activiy_submit">Patvirtinti</string>
+    <string name="end_game_activity_start_new_game">Pradėti naują žaidimą</string>
+</resources>

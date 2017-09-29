@@ -1,4 +1,4 @@
-package com.adventurous.adventurous;
+package com.adventurous.adventurous.Activities;
 
 import android.app.FragmentManager;
 import android.content.Context;
@@ -12,6 +12,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.adventurous.adventurous.AnswersFragment;
+import com.adventurous.adventurous.IOnAnswerSelectionChangeListener;
+import com.adventurous.adventurous.Entities.Point;
+import com.adventurous.adventurous.R;
 
 import java.util.UUID;
 
@@ -86,6 +91,9 @@ public class GameActivity extends AppCompatActivity implements IOnAnswerSelectio
         });
     }
 
+    /**
+     * test
+     */
     private void startAnswerTimerCountdown() {
         new CountDownTimer(1000 * 60 * MINUTES_UNTIL_NEXT_ANSWER_ATTEMPT, 1000) {
 
@@ -95,7 +103,7 @@ public class GameActivity extends AppCompatActivity implements IOnAnswerSelectio
 
             public void onFinish() {
                 mApproveButton.setEnabled(true);
-                mApproveButton.setText("Patvirtinti");
+                mApproveButton.setText(getResources().getString(R.string.game_activity_approve_button));
             }
 
         }.start();
@@ -105,7 +113,7 @@ public class GameActivity extends AppCompatActivity implements IOnAnswerSelectio
         new CountDownTimer(1000 * 60 * MINUTES_UNTIL_NEXT_HINT, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                mTimeUntilNextHintTextView.setText("Iki pagalbos liko\n" + Format(millisUntilFinished / 1000));
+                mTimeUntilNextHintTextView.setText(getString(R.string.game_activity_next_hint_in) + "\n" + Format(millisUntilFinished / 1000));
             }
 
             public void onFinish() {
@@ -130,7 +138,7 @@ public class GameActivity extends AppCompatActivity implements IOnAnswerSelectio
         long hours = time / 3600;
         long minutes = time / 60 % 60;
         long seconds = time % 60;
-        if(hours > 0){
+        if(hours > 0) {
             return String.format("%d:%02d:%02d", hours, minutes , seconds);
         }
 

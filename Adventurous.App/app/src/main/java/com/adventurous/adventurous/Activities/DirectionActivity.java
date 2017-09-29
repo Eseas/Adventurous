@@ -1,4 +1,4 @@
-package com.adventurous.adventurous;
+package com.adventurous.adventurous.Activities;
 
 import android.content.Intent;
 import android.hardware.Sensor;
@@ -9,6 +9,9 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.adventurous.adventurous.GPSTracker;
+import com.adventurous.adventurous.Entities.Point;
+import com.adventurous.adventurous.R;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -91,7 +94,7 @@ public class DirectionActivity extends FragmentActivity implements OnMapReadyCal
 
         mPositionMarker.setPosition(position);
 
-        if(location.distanceTo(mPointLocation) < 10000000){
+        if(location.distanceTo(mPointLocation) < 10000000) {
 
             mGPSTracker.stop();
 

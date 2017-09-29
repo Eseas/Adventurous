@@ -6,7 +6,7 @@
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:paddingTop="0dp"
-    tools:context=".Activities.DirectionActivity"
+    tools:context="com.adventurous.adventurous.Activities.DirectionActivity"
     android:keepScreenOn="true">
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
@@ -16,22 +16,21 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.adventurous.adventurous.PointsActivity" />
+    tools:context="com.adventurous.adventurous.Activities.PointsActivity" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Žaisti"
         android:id="@+id/play_button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pirkti"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/points_activity_play" />
+
+    <Button
         android:id="@+id/pay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/play_button"
-        android:layout_centerHorizontal="true" />
-    android:textAlignment="center" />
+        android:layout_centerHorizontal="true"
+        android:text="@string/points_activity_buy" />
 </RelativeLayout>

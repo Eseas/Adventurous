@@ -1,4 +1,4 @@
-package com.adventurous.adventurous;
+package com.adventurous.adventurous.Activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,11 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.adventurous.adventurous.GPSTracker;
+import com.adventurous.adventurous.GetPointsTask;
+import com.adventurous.adventurous.IGetPointsTaskListener;
+import com.adventurous.adventurous.Entities.Point;
+import com.adventurous.adventurous.R;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;

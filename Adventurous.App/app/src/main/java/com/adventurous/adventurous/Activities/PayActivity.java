@@ -1,4 +1,4 @@
-package com.adventurous.adventurous;
+package com.adventurous.adventurous.Activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.adventurous.adventurous.R;
 
 public class PayActivity extends AppCompatActivity {
 
@@ -19,9 +21,6 @@ public class PayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pay);
 
-//        Intent returnIntent = new Intent();
-//        setResult(Activity.RESULT_OK, returnIntent);
-//        finish();
         mCodeText = (EditText)findViewById(R.id.activity_pay_code_input_field);
         mCodeApproveButton = (Button)findViewById(R.id.activity_pay_approve_button);
 
@@ -35,7 +34,7 @@ public class PayActivity extends AppCompatActivity {
                     finish();
                 }
                 else {
-                    Toast.makeText(PayActivity.this, "Įvedėte klaidingą kodą", Toast.LENGTH_LONG).show();
+                    Toast.makeText(PayActivity.this, getResources().getString(R.string.game_activity_wrong_code), Toast.LENGTH_LONG).show();
                 }
             }
         });

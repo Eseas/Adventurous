@@ -1,4 +1,4 @@
-package com.adventurous.adventurous;
+package com.adventurous.adventurous.Entities;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -44,7 +44,7 @@ public class Point implements Serializable {
                 answers[i] = jsonArray.getString(i);
             }
 
-            rigthAnswerId = jsonPoint.getInt("rigthAnswerId");
+            rigthAnswerId = jsonPoint.getInt("rightAnswerId");
 
         }catch(Exception ex){
             pointLatitude = 0;

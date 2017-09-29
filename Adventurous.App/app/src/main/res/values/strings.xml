@@ -2,6 +2,12 @@
     <string name="app_name">Adventurous</string>
     <string name="title_activity_points">Map</string>
     <string name="title_activity_direction">Map</string>
-    <string name="game_activity_approve_button">Patvirtinti</string>
-    <string name="game_activity_hint_timer_text_view">Iki pagalbos liko\nxx:xx</string>
+    <string name="game_activity_approve_button">Submit</string>
+    <string name="game_activity_wrong_code">Wrong code entered</string>
+    <string name="game_activity_next_hint_in">Next hint in</string>
+    <string name="points_activity_play">Play</string>
+    <string name="points_activity_buy">Buy</string>
+    <string name="pay_activity_code">Code</string>
+    <string name="pay_activiy_submit">Submit</string>
+    <string name="end_game_activity_start_new_game">Start a new game</string>
 </resources>

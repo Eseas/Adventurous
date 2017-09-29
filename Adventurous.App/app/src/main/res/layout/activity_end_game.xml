@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.adventurous.dainiuskavoliunas.adventurous.Activities.EndGameActivity"
+    tools:context="com.adventurous.adventurous.Activities.EndGameActivity"
     android:keepScreenOn="true">
 
     <TextView
@@ -22,7 +22,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pradėti naują žaidimą"
+        android:text="@string/end_game_activity_start_new_game"
         android:id="@+id/end_game_start_game"
         android:layout_below="@+id/end_game_time_text_view"
         android:layout_centerHorizontal="true"
