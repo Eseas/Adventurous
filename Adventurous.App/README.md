@@ -1,3 +1,8 @@
+To setup on your phone:
+turn on wifi, location
+
+Upload this json to myjson.com and change configuration to provide given link.
+
 Trying to recreate valid json:
 [
     {
@@ -123,8 +128,3 @@ Trying to recreate valid json:
         "rightAnswerId": 9
     }
 ]
-
-To setup on your phone:
-turn on wifi, location
-
-Upload this json to myjson.com and change configuration to provide given link.

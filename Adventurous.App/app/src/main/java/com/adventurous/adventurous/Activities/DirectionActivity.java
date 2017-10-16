@@ -8,6 +8,7 @@ import android.hardware.SensorManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 
 import com.adventurous.adventurous.GPSTracker;
 import com.adventurous.adventurous.Entities.Point;
@@ -84,17 +85,18 @@ public class DirectionActivity extends FragmentActivity implements OnMapReadyCal
 
         mMyLocation = location;
 
-        if (mPositionMarker == null) {
-
-            mPositionMarker = mMap.addMarker(new MarkerOptions()
-                    .anchor(0.5f, 0.5f)
-                    .position(position));
-            //.icon(BitmapDescriptorFactory.fromResource(R.mipmap.positionpointericon)));
-        }
-
-        mPositionMarker.setPosition(position);
-
-        if(location.distanceTo(mPointLocation) < 10000000) {
+//        if (mPositionMarker == null) {
+//
+//            mPositionMarker = mMap.addMarker(new MarkerOptions()
+//                    .anchor(0.5f, 0.5f)
+//                    .position(position));
+//            //.icon(BitmapDescriptorFactory.fromResource(R.mipmap.positionpointericon)));
+//        }
+//
+//        mPositionMarker.setPosition(position);
+        float distance = location.distanceTo(mPointLocation);
+        Log.d("DirectionActivity", "distance: " + distance);
+        if(distance < 50) { // TODO make configurable
 
             mGPSTracker.stop();
 
@@ -110,11 +112,11 @@ public class DirectionActivity extends FragmentActivity implements OnMapReadyCal
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        float degree = Math.round(event.values[0]) + 180;
-
-        if(mPositionMarker == null)
-            return;
-        mPositionMarker.setRotation(degree);
+//        float degree = Math.round(event.values[0]) + 180;
+//
+//        if(mPositionMarker == null)
+//            return;
+//        mPositionMarker.setRotation(degree);
     }
 
     @Override

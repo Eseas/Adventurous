@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/game_activity_hint_timer_text_view"
+        android:text="@string/game_activity_next_hint_in"
         android:id="@+id/game_time_until_next_hint_text_view"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"

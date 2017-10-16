@@ -91,6 +91,7 @@ public class PointsActivity extends FragmentActivity implements OnMapReadyCallba
         if (resultCode == Activity.RESULT_OK) {
             mNonFreePoint.isFree = true;
             mNonFreeMarker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+            onMarkerClick(mNonFreeMarker);
         }
 
     }
@@ -152,25 +153,26 @@ public class PointsActivity extends FragmentActivity implements OnMapReadyCallba
 
         mMyLocation = location;
 
-        if (mPositionMarker == null) {
+//        if (mPositionMarker == null) {
+//
+//            mPositionMarker = mMap.addMarker(new MarkerOptions()
+//                    .anchor(0.5f, 0.5f)
+//                    .position(position));
+//            mPositionMarker.setRotation(90);
+//            //.icon(BitmapDescriptorFactory.fromResource(R.mipmap.positionpointericon)));
+//        }
 
-            mPositionMarker = mMap.addMarker(new MarkerOptions()
-                    .anchor(0.5f, 0.5f)
-                    .position(position));
-            //.icon(BitmapDescriptorFactory.fromResource(R.mipmap.positionpointericon)));
-        }
-
-        mPositionMarker.setPosition(position);
+//        mPositionMarker.setPosition(position);
     }
 
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        float degree = Math.round(event.values[0]) + 180;
-
-        if(mPositionMarker == null)
-            return;
-        mPositionMarker.setRotation(degree);
+//        float degree = Math.round(event.values[0]) + 180;
+//
+//        if(mPositionMarker == null)
+//            return;
+//        mPositionMarker.setRotation(degree);
     }
 
     @Override
@@ -192,7 +194,6 @@ public class PointsActivity extends FragmentActivity implements OnMapReadyCallba
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-
         mCurrentPoint = mMarkerToPoint.get(marker);
         if(mCurrentPoint.isFree){
             mPayButton.setVisibility(View.INVISIBLE);
