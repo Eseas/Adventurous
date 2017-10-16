@@ -69,7 +69,7 @@ public class PointsActivity extends FragmentActivity implements OnMapReadyCallba
                 directionActivity.putExtra("ID", mCurrentPoint.id);
                 startActivity(directionActivity);
 
-                finish();
+                // finish(); TODO rethink
             }
         });
 

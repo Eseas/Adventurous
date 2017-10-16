@@ -96,7 +96,7 @@ public class DirectionActivity extends FragmentActivity implements OnMapReadyCal
 //        mPositionMarker.setPosition(position);
         float distance = location.distanceTo(mPointLocation);
         Log.d("DirectionActivity", "distance: " + distance);
-        if(distance < 50) { // TODO make configurable
+        if(distance < 50) { // TODO make configurable on point
 
             mGPSTracker.stop();
 

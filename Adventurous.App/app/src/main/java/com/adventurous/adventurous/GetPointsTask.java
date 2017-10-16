@@ -30,7 +30,6 @@ public class GetPointsTask extends Thread {
     private Point[] getPoints() throws Exception {
 
         String response = HttpClient.Get("https://api.myjson.com/bins/kwjpp");
-//        String response = HttpClient.Get("http://adventurous.azurewebsites.net/api/points");
 
         JSONArray jsonArray = new JSONArray(response);
 
